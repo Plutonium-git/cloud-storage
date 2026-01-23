@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 .background{
     background-color: rgb(17, 12, 25);
 }
@@ -47,4 +52,30 @@
     transform: translateY(-10px);
     border-color: #6610f2 !important;
     box-shadow: 0 0 20px rgba(102, 16, 242, 0.3);
+}
+
+.border-uranium{
+    border-color: #6610f2 !important;
+}
+
+.bg-uranium{
+    background-color: #6610f2 !important;
+}
+
+/* The "Perfect Fit" Header Fix */
+.card-header:first-child {
+    /* Bootstrap rounded-4 is 1rem. We subtract 1px for the border. */
+    border-top-left-radius: calc(1rem - 1px);
+    border-top-right-radius: calc(1rem - 1px);
+}
+
+/* Fix the Bottom Corners */
+.card-body:last-child {
+    border-bottom-left-radius: calc(1rem - 1px);
+    border-bottom-right-radius: calc(1rem - 1px);
+}
+
+.navbar-uranium {
+    background-color: #2a0a55 !important;
+    box-shadow: 0 4px 20px rgba(102, 16, 242, 0.4);
 }
